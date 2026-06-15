@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: linear-gradient(to right, #ff9966, #ff5e62);
+    color: white;
+}
+
+.hero h1 {
+    font-size: 50px;
+}
+
+.hero p {
+    font-size: 20px;
+}
+
+button {
+    background: white;
+    color: #ff5e62;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 30px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: black;
+    color: white;
+}
+
+img {
+    display: block;
+    margin: 30px auto;
+    border-radius: 20px;
+    width: 500px;
+    max-width: 90%;
+}
+
+.menu {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.item {
+    background: white;
+    width: 80%;
+    max-width: 700px;
+    margin: 30px auto;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.item h3 {
+    color: #ff5e62;
+    font-size: 30px;
+}
+
+.item p {
+    line-height: 1.8;
+}
+
+.contact {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+.about {
+    background: white;
+    padding: 60px 30px;
+    text-align: center;
+}
+
+.about h2 {
+    color: #ff5e62;
+    font-size: 40px;
+}
+
+.about p {
+    max-width: 900px;
+    margin: 20px auto;
+    line-height: 1.8;
+    font-size: 18px;
+}
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 16px;
+}
+footer a {
+    color: #ff5e62;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: white;
+}
+@media (max-width: 768px) {
+
+    .hero h1 {
+        font-size: 35px;
+    }
+
+    .item {
+        width: 90%;
+    }
+
+    img {
+        width: 90%;
+    }
+
+    .about h2 {
+        font-size: 30px;
+    }
+
+    .about p {
+        font-size: 16px;
+    }
+
+}
